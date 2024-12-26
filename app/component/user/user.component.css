@@ -1,0 +1,54 @@
+
+body{
+margin: 0px;
+padding: 0px;
+}
+.card{
+    margin: 40px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 70px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color: rgb(171, 48, 48);
+}
+
+.button{
+    margin: 10px;
+    background-color: rgb(248, 86, 86);
+    color: black;
+    border-radius: 5px;
+    hover{
+        background-color: rgb(171, 48, 48);
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.td{
+    text-align: center;
+    color: rgb(171, 48, 48);
+    flex-direction: column;
+    inline-size: 100px;
+
+}
+.content{
+    text-align: center;
+    color: rgb(171, 48, 48);
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30px;
+}
